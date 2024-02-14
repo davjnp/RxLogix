@@ -1,0 +1,40 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th {
+    border-top: 1px solid #DDD;
+  }
+  th, td {
+    padding: 6px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+    input, select {
+      padding: 7px;
+    }
+
+    span {
+      padding: 7px;
+      background-color: #0066cc;
+      color: #fff;
+      border-radius: 4px;
+      svg {
+        cursor: pointer;
+        fill: #fff;
+      }
+    }
+
+    span:not(.no-cursor) {
+      svg {
+        cursor: pointer;
+      }
+    }
+  }
+  
+  tr:hover {background-color: #D6EEEE;}
+
+  .tilte-text {
+    font-size: 2rem;
+    text-align: center;
+    color: #0066cc;
+  }

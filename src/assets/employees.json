@@ -1,0 +1,76 @@
+{
+    "Employees": [
+      {
+        "empId": "001",
+        "jobTitle": "Manager",
+        "name": "Amit Kumar",
+        "age":  33,
+        "startDate": "2015-05-01",
+        "endDate": "2018-02-25",
+        "isCurrentlyWorking": false,
+        "edit": false
+      },
+      {
+        "empId": "002",
+        "jobTitle": "Tech Lead",
+        "name": "Ankur Tyagi",
+        "age":  38,
+        "startDate": "2015-05-01",
+        "endDate": "",
+        "isCurrentlyWorking": true,
+        "edit": false
+      },
+      {
+        "empId": "003",
+        "jobTitle": "Software Developer",
+        "name": "Saurav Mishra",
+        "age":  40,
+        "startDate": "2015-05-01",
+        "endDate": "2018-02-25",
+        "isCurrentlyWorking": false,
+        "edit": false
+      },
+      {
+        "empId": "004",
+        "jobTitle": "Quality Analysis",
+        "name": "Ravi Yadav",
+        "age":  30,
+        "startDate": "2015-05-01",
+        "endDate": "",
+        "isCurrentlyWorking": true,
+        "edit": false
+      },
+      {
+        "empId": "005",
+        "jobTitle": "UI Designer",
+        "name": "Manoj Singh",
+        "age":  35,
+        "startDate": "2015-05-01",
+        "endDate": "2018-02-25",
+        "isCurrentlyWorking": false,
+        "edit": false
+      }
+      
+    ],
+    "jobTitles": [
+      {
+        "id": 1,
+        "jobTitle": "UI Designer"
+      },
+      {
+        "id": 2,
+        "jobTitle": "Software Developer"
+      },
+      {
+        "id": 3,
+        "jobTitle": "Manager"
+      },
+      {
+        "id": 4,
+        "jobTitle": "Tech Lead"
+      },{
+        "id": 5,
+        "jobTitle": "Quality Analysis"
+      }
+    ]
+  }
